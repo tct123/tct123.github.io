@@ -15,30 +15,17 @@ a {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: white;
     color: #333;
 }
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: black;
-    color: white;
+@media (prefers-color-scheme:dark){
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: black;
+        color: white;
+    }
 }
-
-#dark-mode-toggle {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 0.5rem 1rem;
-    background-color: #0073e6;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#dark-mode-toggle:hover {
-    background-color: #005bb5;
-}
-Jetzt
 
 
 header {
